@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@reduxjs/toolkit": "^1.4.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
@@ -10,9 +11,14 @@
     "@types/node": "^12.0.0",
     "eslint-config-prettier": "^6.12.0",
     "prettier": "^2.1.2",
+    "rc-dropdown": "^3.2.0",
+    "rc-menu": "^8.7.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
     "react-scripts": "3.4.3",
+    "recoil": "0.0.13",
+    "shortid": "^2.2.15",
     "typescript": "~3.7.2"
   },
   "scripts": {
@@ -62,6 +68,8 @@
   "devDependencies": {
     "@types/react": "^16.9.50",
     "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/shortid": "0.0.29",
     "autoprefixer": "^10.0.1",
     "postcss": "^8.1.1",
     "postcss-cli": "^8.0.0",
